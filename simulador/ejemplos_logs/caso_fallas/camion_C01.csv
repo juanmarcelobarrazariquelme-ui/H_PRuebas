@@ -1,0 +1,8 @@
+seq,tick,evento,entidad,contraparte,ubicacion,estado,recurso,recursos_retenidos,toneladas,evento_relacionado,detalle
+3,0,ENTRADA_TRAMO,C01,na,T1:E1>I1,ViajandoVacio,T1,na,0,na,na
+5,2,FALLA_TEMPORAL,C01,na,T1:E1>I1,EnFalla,T1,na,0,F1,reparacion=3ticks
+7,5,REPARACION,C01,na,T1:E1>I1,ViajandoVacio,T1,na,0,F1,na
+8,8,SALIDA_TRAMO,C01,na,I1,ViajandoVacio,T1,na,0,na,na
+9,8,ENTRADA_TRAMO,C01,na,T3:I1>I2,ViajandoVacio,T3,na,0,na,na
+12,10,FALLA_PERMANENTE,C01,na,T3:I1>I2,EnFalla,T3,na,0,F2,bloqueo_sentido=I1>I2
+20,720,FIN_TURNO,C01,na,T3:I1>I2,EnFalla,T3,na,0,Z1,na

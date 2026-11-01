@@ -1,0 +1,7 @@
+seq,tick,evento,entidad,contraparte,ubicacion,estado,recurso,recursos_retenidos,toneladas,evento_relacionado,detalle
+17,19,INGRESO_COLA_PALA,P1,C01,P1,na,P1,na,0,Q1,na
+18,19,INICIO_CARGA,P1,C01,P1,na,P1,na,0,L1,na
+22,20,INGRESO_COLA_PALA,P1,C02,P1,na,P1,na,0,Q2,na
+23,25,FIN_CARGA,P1,C01,P1,na,P1,na,330,L1,na
+28,25,INICIO_CARGA,P1,C02,P1,na,P1,na,0,L2,na
+31,31,FIN_CARGA,P1,C02,P1,na,P1,na,325,L2,na

@@ -1,0 +1,8 @@
+seq,tick,evento,entidad,contraparte,ubicacion,estado,recurso,recursos_retenidos,toneladas,evento_relacionado,detalle
+4,1,ENTRADA_TRAMO,C02,na,T1:E1>I1,ViajandoVacio,T1,na,0,na,na
+6,5,ESPERA_RECURSO,C02,na,T1:E1>I1,Esperando(T1_FIFO),T1,na,0,W1,predecesor=C01
+10,9,SALIDA_TRAMO,C02,na,I1,ViajandoVacio,T1,na,0,na,na
+11,9,ENTRADA_TRAMO,C02,na,T3:I1>I2,ViajandoVacio,T3,na,0,na,na
+13,12,ESPERA_RECURSO,C02,na,T3:I1>I2,Esperando(T3_FIFO),T3,na,0,W2,predecesor=C01
+14,15,ESPERA_PROLONGADA,C02,na,T3:I1>I2,Esperando(T3_FIFO),T3,na,0,W2,atrapado_sin_espera_circular
+21,720,FIN_TURNO,C02,na,T3:I1>I2,Esperando(T3_FIFO),T3,na,0,Z2,na

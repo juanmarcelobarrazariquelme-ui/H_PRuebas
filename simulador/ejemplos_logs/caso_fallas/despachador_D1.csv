@@ -1,0 +1,3 @@
+seq,tick,evento,entidad,contraparte,ubicacion,estado,recurso,recursos_retenidos,toneladas,evento_relacionado,detalle
+1,0,ASIGNACION_PALA,D1,C01,E1,na,P1,na,0,AF1,na
+2,0,ASIGNACION_PALA,D1,C02,E1,na,P1,na,0,AF2,na

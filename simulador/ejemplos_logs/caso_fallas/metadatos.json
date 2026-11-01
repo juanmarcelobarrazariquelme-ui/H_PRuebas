@@ -1,0 +1,7 @@
+{
+  "naturaleza": "ejemplo manual; no resultado de ejecucion",
+  "mina": "mina_ejemplo.txt",
+  "orden": "seq global desde 1 por escenario",
+  "protocolo": "prevencion conceptual",
+  "duracion_ticks": 720
+}

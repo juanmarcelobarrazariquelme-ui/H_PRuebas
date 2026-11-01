@@ -1,0 +1,4 @@
+seq,tick,evento,entidad,contraparte,ubicacion,estado,recurso,recursos_retenidos,toneladas,evento_relacionado,detalle
+15,20,RESERVA_PALA,C03,P1,I2,ViajandoVacio,P1,P1,0,RP3,solicitud_admitida_en_controlador
+16,20,CANCELAR_RESERVA,C03,P1,I2,Esperando(R1),P1,na,0,RP3,cancelacion_antes_de_entrada
+22,720,FIN_TURNO,C03,na,I2,Esperando(R1),R1,na,0,Z3,na

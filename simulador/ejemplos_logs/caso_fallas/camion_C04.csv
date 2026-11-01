@@ -1,0 +1,5 @@
+seq,tick,evento,entidad,contraparte,ubicacion,estado,recurso,recursos_retenidos,toneladas,evento_relacionado,detalle
+17,21,ADQUIRIR_LUGAR_PALA,C04,P1,P1,EnColaPala,P1,P1,0,RP4,na
+18,22,PANIC_RECUPERADO,C04,na,P1,EnFalla,P1,P1,0,PC4,falla_permanente_por_panic
+19,22,LIBERAR_LUGAR_PALA,C04,P1,P1,EnFalla,P1,na,0,PC4,liberado_por_recover
+23,720,FIN_TURNO,C04,na,P1,EnFalla,P1,na,0,Z4,na
