@@ -1,0 +1,15 @@
+# Registro de uso de IA — Certámenes II y III
+
+## Asistencia documental
+
+- **Herramienta:** ChatGPT (OpenAI).
+- **Fecha:** 1 de noviembre de 2026.
+- **Finalidad:** explicación de arquitectura concurrente, pseudocódigo de rampas, especificación de lectura del grafo, descripción de un ciclo y definición de un formato de logs con datos manuales.
+- **Archivos de esta asistencia:** `README.md`, `simulador/README.md`, documentos de `simulador/docs/`, `simulador/mina_ejemplo.txt`, `simulador/ejemplos_logs/`, y documentos administrativos de la raíz.
+- **Código de simulador generado por IA:** ninguno.
+- **Planificador importado desde IA u otra fuente:** ninguno en este material.
+- **Trazabilidad de la conversación:** incorporar el enlace compartido o la transcripción de esta conversación al registro del repositorio.
+
+## Criterio de registro
+
+Toda otra intervención de IA se registra con fecha, herramienta, enlace/transcripción, archivos afectados y finalidad. Si el equipo incorpora un planificador externo permitido, se documentan la URL/licencia o conversación de procedencia, el hash del commit único `import:` y las adaptaciones realizadas por el grupo.
